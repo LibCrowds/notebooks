@@ -1,0 +1,11 @@
+--index-url https://pypi.python.org/simple/
+
+plotly
+jupyter
+jupyterlab
+pandas
+requests
+gensim
+nltk
+nbconvert
+stop-words
