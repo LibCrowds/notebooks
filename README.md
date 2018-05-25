@@ -1,17 +1,10 @@
-# notebooks
-Computational analysis of LibCrowds data
-# notebooks
+# LibCrowds Notebooks
 
-> Computational analysis of LibCrowds data
-
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/LibCrowds/notebooks/master?urlpath=lab)
+> Computational analysis of LibCrowds data.
 
 The Jupyter notebooks contained in this repository explore the data created
-via the LibCrowds platform.
-
-## Visit the lab
-
-To work with interactive versions of the notebooks, visit the following URL:
+via the LibCrowds platform. To work with interactive versions of the notebooks,
+visit the following URL:
 
 https://mybinder.org/v2/gh/libcrowds/notebooks/master?urlpath=lab
 
