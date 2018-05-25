@@ -20,6 +20,7 @@ def get_transcription(bodies):
 
 def get_its_transcriptions_df():
     df = pandas.read_json(IRI, orient='records')
+    df = df[df['motivation'] == 'describing']
     df['tag'] = df['body'].apply(get_tag)
     df['transcription'] = df['body'].apply(get_transcription)
     return df
