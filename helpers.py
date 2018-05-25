@@ -18,12 +18,8 @@ def get_transcription(bodies):
             return body['value']
 
 
-def run():
+def get_its_transcriptions_df():
     df = pandas.read_json(IRI, orient='records')
     df['tag'] = df['body'].apply(get_tag)
     df['transcription'] = df['body'].apply(get_transcription)
     return df
-
-
-if __name__ == '__main__':
-    run()
