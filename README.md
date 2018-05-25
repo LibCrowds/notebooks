@@ -13,6 +13,10 @@ explore the data created via the LibCrowds platform.
 
 https://mybinder.org/v2/gh/libcrowds/notebooks/master?urlpath=lab
 
+## Contents
+
+1. [An Introduction to the Use of Python for Analysis of in the Spotlight Results](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_python_analysis_with_its_results.ipynb)
+
 ## Build setup
 
 ``` bash
