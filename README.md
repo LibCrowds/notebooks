@@ -14,6 +14,9 @@ The notebooks are located in the `/notebooks` folder.
 
 1. [An Introduction to Analysing In the Spotlight Data Using Python](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_analysing_its_data_using_python.ipynb)
 
+#### Appendicies
+[Appendix A: Loading PYBOSSA Tasks into a Dataframe](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/loading_pybossa_tasks_into_a_dataframe.ipynb)
+
 ## Build setup
 
 ``` bash
