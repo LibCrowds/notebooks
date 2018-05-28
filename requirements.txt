@@ -3,7 +3,7 @@
 plotly
 jupyter
 jupyterlab
-pandas
+pandas>=0.23.0
 requests
 gensim
 nltk
