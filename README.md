@@ -18,6 +18,8 @@ The notebooks are located in the `/notebooks` folder.
 
 3. [An Introduction to Visualising In the Spotlight Data Using Python](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_visualising_its_data_using_python.ipynb)
 
+4. [Visualising In the Spotlight Data Over Time](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/visualising_its_data_over_time.ipynb)
+
 ## Build setup
 
 ``` bash
