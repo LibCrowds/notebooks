@@ -25,7 +25,6 @@ The notebooks are located in the `/notebooks` folder.
 ``` bash
 # install dependencies
 pip install -r requirements.txt
-pip install -r data/requirements.txt
 
 # raise memory limit
 export NODE_OPTIONS=--max-old-space-size=4096
