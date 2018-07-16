@@ -27,6 +27,13 @@ pip install -r requirements.txt
 # install Jupyter extensions
 jupyter labextension install @jupyterlab/plotly-extension
 
+# raise memory limit
+export NODE_OPTIONS=--max-old-space-size=4096
+
+# install Jupyter extensions
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install plotlywidget
+
 # run
 jupyter lab
 ```
