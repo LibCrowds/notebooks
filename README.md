@@ -37,6 +37,7 @@ export NODE_OPTIONS=--max-old-space-size=4096
 
 # install Jupyter extensions
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install @jupyterlab/plotly-extension
 jupyter labextension install plotlywidget
 
 # run
