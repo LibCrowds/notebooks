@@ -2,3 +2,4 @@ env/*
 en/*
 notebooks/*.ipynb_checkpoints/
 .vscode/*
+cache/*

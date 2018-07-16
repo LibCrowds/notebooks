@@ -12,20 +12,18 @@ The notebooks are located in the `/notebooks` folder.
 
 ## Contents
 
-1. [An Introduction to Analysing In the Spotlight Data Using Python](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_analysing_its_data_using_python.ipynb)
-2. [An Introduction to Visualising In the Spotlight Data Using Python](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_visualising_its_data_using_python.ipynb)
+1. [An Introduction to the LibCrowds Annotations Data Model](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_the_libcrowds_data_model.ipynb)
 
-#### Appendicies
-[Appendix A: Loading PYBOSSA Tasks into a Dataframe](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/loading_pybossa_tasks_into_a_dataframe.ipynb)
+2. [An Introduction to Analysing In the Spotlight Data Using Python](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_analysing_its_data_using_python.ipynb)
+
+3. [An Introduction to Visualising In the Spotlight Data Using Python](https://nbviewer.jupyter.org/github/LibCrowds/notebooks/blob/master/notebooks/intro_to_visualising_its_data_using_python.ipynb)
 
 ## Build setup
 
 ``` bash
-# install core dependencies
+# install dependencies
 pip install -r requirements.txt
-
-# install Jupyter extensions
-jupyter labextension install @jupyterlab/plotly-extension
+pip install -r data/requirements.txt
 
 # raise memory limit
 export NODE_OPTIONS=--max-old-space-size=4096
