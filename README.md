@@ -23,10 +23,16 @@ The notebooks are located in the `/notebooks` folder.
 ## Build setup
 
 ``` bash
+# clone with submodules
+git clone https://github.com/LibCrowds/notebooks --recursive
+
+# change directory
+cd notebooks
+
 # install dependencies
 pip install -r requirements.txt
 
-# raise memory limit
+# raise memory limit (on Windows replace "export" with "set")
 export NODE_OPTIONS=--max-old-space-size=4096
 
 # install Jupyter extensions
